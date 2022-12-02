@@ -53,10 +53,10 @@ def main():
         score_puzzle1 += puzzle1(data1, data2)
         score_puzzle2 += puzzle2(data1, data2)
 
-    # Answer the first question: What is your score with the current assumption on how the game works
+    # Answer the first question: Your score assuming how the game works
     answer(1, score_puzzle1)
 
-    # Answer the second question: What is your score knowing how the game works
+    # Answer the second question: Your score knowing how the game works
     answer(2, score_puzzle2)
 
 
